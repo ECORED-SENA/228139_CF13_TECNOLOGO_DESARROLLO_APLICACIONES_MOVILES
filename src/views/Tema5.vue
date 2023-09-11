@@ -22,31 +22,31 @@
     .row.mb-3(data-aos="fade-down")
       .col-lg-4.col-md-6.mb-4
         .p-5.bg-5.h-100.sombra-1
-          h4 onPreExecute ().
+          h4 #[em onPreExecute] ()
           p Se ejecutará antes del código principal de nuestra tarea. Se suele utilizar para preparar la ejecución de la tarea, inicializar la interfaz, etc.
 
       .col-lg-4.col-md-6.mb-4
         .p-5.bg-6.h-100.sombra-1
-          h4 doInBackground ().
+          h4 #[em doInBackground] ()
           p Contendrá el código principal de nuestra tarea.
 
       .col-lg-4.col-md-6.mb-4
         .p-5.bg-5.h-100.sombra-1
-          h4 onProgressUpdate ().
-          p Se ejecutará cada vez que llamemos al método publishProgress () desde el método doInBackground ()
+          h4 #[em onProgressUpdate] ()
+          p Se ejecutará cada vez que llamemos al método #[em #[b publishProgress]] () desde el método #[em #[b doInBackground]] ()
 
       .col-lg-4.col-md-6.mb-4
         .p-5.bg-6.h-100.sombra-1
-          h4 onPostExecute (). 
-          p Se ejecutará cuando finalice nuestra tarea, o, dicho de otra forma, tras la finalización del método doInBackground ()
+          h4 #[em onPostExecute] ()
+          p Se ejecutará cuando finalice nuestra tarea, o, dicho de otra forma, tras la finalización del método #[em #[b doInBackground]] ()
 
       .col-lg-4.col-md-6.mb-4
         .p-5.bg-5.h-100.sombra-1
-          h4 onCancelled ().
+          h4 #[em onCancelled] ()
           p Se ejecutará cuando se cancele la ejecución de la tarea antes de su finalización normal.
 
 
-    p.mb-4(data-aos="fade") Estos métodos tienen una particularidad esencial para nuestros intereses. El método doInBackground () se ejecuta en un hilo secundario (por tanto, no se puede interactuar con la interfaz), pero sin embargo todos los demás se ejecutan en el hilo principal, lo que quiere decir que dentro de ellos se pueden hacer referencia directa a los controles de usuario para actualizar la interfaz.
+    p.mb-4(data-aos="fade") Estos métodos tienen una particularidad esencial para nuestros intereses. El método #[em #[b doInBackground]] () se ejecuta en un hilo secundario (por tanto, no se puede interactuar con la interfaz), pero sin embargo todos los demás se ejecutan en el hilo principal, lo que quiere decir que dentro de ellos se pueden hacer referencia directa a los controles de usuario para actualizar la interfaz.
 
     .tarjeta.p-3.col-lg-10.m-auto.bg-gradiente(data-aos="fade-down")
       .row.justify-content-around.align-items-center

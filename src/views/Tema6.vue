@@ -19,17 +19,17 @@
     p.mb-4 #[strong Android incluye soporte a SQLite y utiliza el paquete Android. database.sqlite para utilizar las bases de datos.]
 
     .p-4.p-lg-5.bg-4.sombra-1.mb-5
-      p El proceso de las bases de datos inicia con la creación de la base de datos, y las tablas, se trabajan con la clase SQliteOpenHelper.
-      p Para crear un esquema de base de datos o actualizar el mismo se debe crear una clase que herede de SQLiteOpenHelper, donde se implementa el constructor y dos métodos abstractos (obligatorio implementarlos) onCreate () y onUpgrade () respectivamente.
-      p Por medio de los métodos getReadableDatabase y getWritableDatabase se abre y se consigue una instancia de la base de datos de sólo lectura o de lectura y escritura respectivamente. 
+      p El proceso de las bases de datos inicia con la creación de la base de datos, y las tablas, se trabajan con la clase #[b #[em SQliteOpenHelper]].
+      p Para crear un esquema de base de datos o actualizar el mismo se debe crear una clase que herede de #[b #[em SQLiteOpenHelper]], donde se implementa el constructor y dos métodos abstractos (obligatorio implementarlos) #[b #[em onCreate]] () y #[b #[em onUpgrade]] () respectivamente.
+      p Por medio de los métodos #[b #[em getReadableDatabase]] y #[b #[em getWritableDatabase]] se abre y se consigue una instancia de la base de datos de sólo lectura o de lectura y escritura respectivamente. 
       p Para la creación de las tablas se ejecutan las sentencias SQL dentro del método onCreate utilizando el método db. execute.
-      p Para la administración de una base de datos SQLitese utiliza la Clase SQLiteDatabase.
-      p.mb-0 SQLiteDatabase: tiene métodos para crear, eliminar, ejecutar comandos SQL y realizar otras tareas comunes de administración de bases de datos.
+      p Para la administración de una base de datos SQLitese utiliza la Clase #[b #[em SQLiteDatabase]].
+      p.mb-0 #[b #[em SQLiteDatabase]]: tiene métodos para crear, eliminar, ejecutar comandos SQL y realizar otras tareas comunes de administración de bases de datos.
 
     h5.mb-4 Los métodos más utilizados son:
 
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade") 
-      p.mb-0 #[strong Tabla 7.] Métodos de administración de bases de datos de la clase SQLiteDatabase
+      p.mb-0 #[strong Tabla 7.] Métodos de administración de bases de datos de la clase #[b #[em SQLiteDatabase]]
 
     .table-a.col-md-10.mb-5(data-aos="fade-down") 
       table(width="100%")
@@ -42,23 +42,23 @@
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%")
               h5.mb-0 Insertar Datos
-            td(style="width:70%") db.insert
+            td(style="width:70%") #[b #[em db.insert]]
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%")
               h5.mb-0 Consultar Datos
-            td(style="width:70%") db.rawQuery() y db.query()
+            td(style="width:70%") #[b #[em db.rawQuery()]] y #[b #[em db.query()]]
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%")
               h5.mb-0 Eliminar Datos
-            td(style="width:70%") db.delete
+            td(style="width:70%") #[b #[em db.delete]]
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%")
               h5.mb-0 Actualizar Datos
-            td(style="width:70%") db.update
+            td(style="width:70%") #[b #[em db.update]]
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%")
               h5.mb-0 Ejecutar sentencia SQL
-            td(style="width:70%") db.execute
+            td(style="width:70%") #[b #[em db.execute]]
 
     p.mb-4 Para reflejar la utilidad de las bases de datos SQLite se realizará un ejemplo de una base de datos para registro de usuarios y de entidades, donde se tendrá una actividad de solicitud de datos para creación actualización y borrado en el BD de información almacenada de forma persistente.
 
@@ -155,7 +155,8 @@
       ul.lista-ul--color.fa-ul.mb-0
         li 
           i.fas.fa-check
-          span.mb-0 Una cuenta de Gmail para acceder a la consola de Firebase https://console.firebase.google.com
+          span.mb-0 Una cuenta de Gmail para acceder a la consola de Firebase 
+            a(:href="('https://console.firebase.google.com')" target="_blank") https://console.firebase.google.com
         li 
           i.fas.fa-check
           span.mb-0 Un proyecto de Android Studio para poder hacer la conexión con la base de datos de  Firebase.

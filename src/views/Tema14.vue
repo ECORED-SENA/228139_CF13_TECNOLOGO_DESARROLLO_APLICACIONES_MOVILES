@@ -167,8 +167,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Llamado a la acción
-                  p.mb-lg-0 A continuación, puede ampliar información sobre la administración de firmas, para esto le invitamos a visitar la página: https://developer.android.com/studio/publish/app-signing?hl=es#generate-key
+                  h3.mb-1 Cómo firmar una app para lanzarla en Google Play
+                  p.mb-lg-0 Le invitamos a seguir ampliando la información sobre la administración de firmas en tiendas de aplicaciones, como Google Play.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://developer.android.com/studio/publish/app-signing?hl=es#generate-key')" target="_blank")
                     span Enlace web

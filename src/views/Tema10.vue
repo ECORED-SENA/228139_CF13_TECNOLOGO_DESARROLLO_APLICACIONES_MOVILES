@@ -11,7 +11,7 @@
       .row.align-items-center.justify-content-around
         .col-lg-3.mb-4.mb-lg-0
           figure
-            img.py-lg-4.px-lg-5(src='@/assets/curso/temas/t10/t3-i1.svg', alt='') 
+            img.mx-auto(src='@/assets/curso/temas/t10/t3-i1.svg', alt='' style="width:180px;") 
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p.mb-0 La mayoría de las aplicaciones tienen como requisito la persistencia de los datos que lo componen, almacenamiento de preferencias del usuario en el sistema, hasta bases de datos relacionales con grandes datos.
@@ -35,20 +35,20 @@
     .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-down")
       h4 Sistema predeterminado
       p Se refiere a una colección de listas de propiedades, estas se almacenan en la carpeta Biblioteca en una carpeta de preferencias.
-      p.mb-0  #[b UserDefaults] es un mecanismo de Swift que se utiliza para almacenar pequeñas cantidades de datos.
+      p.mb-0  #[b #[em UserDefaults]] es un mecanismo de Swift que se utiliza para almacenar pequeñas cantidades de datos.
 
     .row.mb-5.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade") 
-          p.mb-0 #[b Ejemplo.]
+          p.mb-0 #[b Figura 5.] Ejemplo
         .tarjeta--gris.p-3(data-aos="fade-down")
           figure.mb-5(data-aos-delay='0')
-            img.w-auto(src='@/assets/curso/temas/t10/t3-c1.svg', alt='')
+            img.w-auto(src='@/assets/curso/temas/t10/t3-c1.svg', alt='Ejemplo de un UserDefaults')
 
     .cajon.color-acento-botones.p-4.mb-5(data-aos="fade-down")
-      .h4 userDefaults.synchronize()
+      .h4 #[em userDefaults.synchronize()]
       p.mb-3  Almacena valores utilizando clave- valor, las líneas de código de la configuración de valores define el tipo de dato y el nombre de la llave con la cual se llamarán los datos, para el ejemplo: 
-      p.mb-0  #[b userDefaults.setBool(true, forKey: "Key1")] está configurando una entrada de valor de tipo #[b booleano] y el nombre de la llave será key1.
+      p.mb-0  #[b #[em userDefaults.setBool(true, forKey: "Key1")]] está configurando una entrada de valor de tipo #[b booleano] y el nombre de la llave será key1.
     
     .row.mb-5.justify-content-center
       .col-lg-5(data-aos="fade-right")
@@ -75,7 +75,7 @@
           .tarjeta.tarjeta--gris.p-4(titulo="Abrir Bd")
             .row.justify-content-center.align-items-center
               .col-lg-8
-                p Para abrir la base se utiliza la función #[b sqlite3_open (path_db, &db);] la cual recibe el #[b path] de la base de datos y el contexto al #[b struct].              
+                p Para abrir la base se utiliza la función #[b #[em sqlite3_open (path_db, &db);]] la cual recibe el #[b #[em path]] de la base de datos y el contexto al #[b #[em struct]].              
           .tarjeta.tarjeta--gris.p-4(titulo="Implementar métodos")
             .row.justify-content-center.align-items-center
               .col-lg-8
@@ -97,7 +97,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[b Enlace web.] https://adnan-tech.com/create-read-update-and-delete-from-sqlite-swift-swift-ui
+                  p #[b Enlace web.] #[em Swift UI SQLite – Create, Read, Update and Delete in Swift]
               ul.lista-ul--color.sin-color.fa-ul.mb-0
                 li  
                   i.fas.fa-check
@@ -106,7 +106,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[b Enlace web.] https://www.youtube.com/watch?v=k4GK4MmE4Ag&t=27s
+                  p #[b Enlace web.] XCODE programación (PARTE 1) - Conexión a base de datos SQLITE
 
 
     Separador
@@ -147,7 +147,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[b Enlace web.] https://mastermoviles.gitbook.io/persistencia-en-dispositivos-m-viles-ios/intro-2/3.2_stack
+                  p #[b Enlace web.] #[em El stack de Core Data]
               ul.lista-ul--color.sin-color.fa-ul.mb-0
                 li  
                   i.fas.fa-check
@@ -156,7 +156,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[b Enlace web.] https://www.youtube.com/watch?v=2Za19Z60aRk
+                  p #[b Enlace web.] Programando Core Data en iOS
 
 
 
@@ -254,7 +254,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Enlace web.] https://developer.apple.com/documentation/cloudkit/enabling_cloudkit_in_your_app
+                p #[b Enlace web.] #[em Enabling CloudKit in Your App]
             ul.lista-ul--color.sin-color.fa-ul.mb-0
               li  
                 i.fas.fa-check
@@ -263,7 +263,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Enlace web.] https://developer.apple.com/documentation/cloudkit/designing_and_creating_a_cloudkit_database
+                p #[b Enlace web.] #[em Designing and Creating a CloudKit Database]
             ul.lista-ul--color.sin-color.fa-ul.mb-0
               li  
                 i.fas.fa-check
@@ -272,7 +272,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Enlace web.] https://www.youtube.com/watch?v=MyzZnIR5gC4
+                p #[b Enlace web.] XCODE: COMO Crear una APP (para Principiantes)
 
 
 

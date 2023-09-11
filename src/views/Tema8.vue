@@ -83,7 +83,7 @@
         figure
           img(src='@/assets/curso/temas/t8/t1-ic6.svg', alt='')    
       .col-lg-10.mb-3(data-aos="fade-left") 
-        p Son aquellos en donde se almacena la información por medio de variables y constantes, por ejemplo, si queremos almacenar un texto se necesita un tipo de dato <i>String</i>, y si se quiere almacenar un valor numérico se necesita un tipo de dato <i>Int</i>.
+        p Son aquellos en donde se almacena la información por medio de variables y constantes, por ejemplo, si queremos almacenar un texto se necesita un tipo de dato #[b #[em String]], y si se quiere almacenar un valor numérico se necesita un tipo de dato #[b #[em Int]].
         p En #[b el lenguaje de programación Swift] se encuentran los tipos de datos básicos que se enuncian en la siguiente tabla:
     
     .titulo-sexto.color-acento-contenido(data-aos="fade") 
@@ -96,19 +96,19 @@
             th Descripción
         tbody
           tr
-            th Int
+            td.text-center #[b #[em Int]]
             td Número entero de 32 #[em bits] con un rango de entre -2.147.483.648 y 2,147,483,647.
           tr
-            th Double
+            td.text-center #[b #[em Double]]
             td Número flotante de 64 #[em bits] con hasta 15 decimales de precisión.
           tr
-            th Float
+            td.text-center #[b #[em Float]]
             td Número flotante de 32 #[em bits] con hasta 6 decimales de precisión.
           tr
-            th Bool
+            td.text-center #[b #[em Bool]]
             td Número booleano que puede ser 0 #[em (false)] o 1 #[em (true)].
           tr
-            th String
+            td.text-center #[b #[em String]]
             td Cadena de caracteres, tratada internamente con una matriz (#[em array]) de ellos.
 
     p(data-aos="fade") Las constantes y variables presentes en los tipos de datos relacionan valores, recordando que una constante es un elemento de datos con nombre  y con un valor predefinido, mientras que una variable es un elemento de datos con nombre cuyo valor puede cambiar durante el curso de la ejecución de un programa. 
@@ -120,7 +120,7 @@
         .row.mb-5
           .col-md-6.mb-4.mb-md-0.p-4
             h4 Declaración de constantes y variables
-            p En el lenguaje Swift las constantes y variables se deben declarar antes de ser usadas, para declarar una constante se usa la palabra reservada #[em let] y para declarar una variable se utiliza la palabra reservada var.
+            p En el lenguaje Swift las constantes y variables se deben declarar antes de ser usadas, para declarar una constante se usa la palabra reservada #[b #[em  let]] y para declarar una variable se utiliza la palabra reservada var.
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos="fade") 
                 p.mb-0 #[b Ejemplo.] Declaración de constante
@@ -200,7 +200,7 @@
       .row.align-items-center.justify-content-around
         .col-lg-3.mb-4.mb-lg-0
           figure
-            img.py-lg-4.px-lg-5(src='@/assets/curso/temas/t8/t1-ic7.svg', alt='') 
+            img.mx-auto(src='@/assets/curso/temas/t8/t1-ic7.svg', alt='' style="width:150px;") 
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p.mb-0 Los operadores son los símbolos que se utilizan para #[b asignar, comparar o combinar valores,] a continuación, podrá observar los tipos de operadores básicos:
@@ -299,10 +299,10 @@
          figure
           img(src='@/assets/curso/temas/t8/t1-ic11.svg', alt='')
       .col-lg-10(data-aos="fade-left") 
-        p.mb-3  #[b Swift] proporciona dos formas determinadas para trabajar con condicionales en su código, la declaración #[b if] y la declaración #[b switch].
-        p.mb-3  La declaración #[b if] usualmente se trabaja cuando se necesita evaluar condiciones simples, mientras que #[b switch]  se adapta mejor a condiciones con múltiples respuestas.
+        p.mb-3  #[b Swift] proporciona dos formas determinadas para trabajar con condicionales en su código, la declaración #[b #[em  if]] y la declaración #[b switch].
+        p.mb-3  La declaración #[b #[em if]] usualmente se trabaja cuando se necesita evaluar condiciones simples, mientras que #[b switch]  se adapta mejor a condiciones con múltiples respuestas.
     
-    h3.titulo-tercero(data-aos="fade") Estructura condicional if simple
+    h3.titulo-tercero(data-aos="fade") Estructura condicional #[em if] simple
 
     .row.mb-5.justify-content-center(data-aos="fade-down") 
       .col-lg-8
@@ -321,7 +321,7 @@
         .cajon.color-acento-contenido.p-4.mb-5
           p.mb-0 El ejemplo anterior verifica si la edad es mayor o igual a 18, si se cumple imprime un mensaje informando que es mayor de edad, en caso contrario no se imprime ningún mensaje.
 
-    p.mb-4(data-aos="fade") El condicional if contiene declaraciones alternativas como la cláusula else que se utiliza cuando la condición es falsa, para el ejemplo anterior no se ejecutaba ninguna acción si la condición era falsa, con la cláusula else se puede realizar esta verificación así:
+    p.mb-4(data-aos="fade") El condicional #[b #[em if]] contiene declaraciones alternativas como la cláusula else que se utiliza cuando la condición es falsa, para el ejemplo anterior no se ejecutaba ninguna acción si la condición era falsa, con la cláusula else se puede realizar esta verificación así:
     
     .titulo-sexto.color-acento-contenido(data-aos="fade") 
       p.mb-0 #[b Ejemplo.] cláusula else
@@ -336,8 +336,8 @@
         .cajon.color-acento-contenido.p-4
           p.mb-0 Para este ejemplo se ejecuta una de las dos instrucciones.
 
-    h3(data-aos="fade") Switch
-    p.mb-4(data-aos="fade") Una declaración switch considera un valor y lo compara con varios de los valores de coincidencia posibles, ejecutando un bloque de código en el cual encuentra la coincidencia, esto quiere decir que compara un valor con uno o más valores del mismo tipo.
+    h3(data-aos="fade") #[em Switch]
+    p.mb-4(data-aos="fade") Una declaración #[b #[em switch]] considera un valor y lo compara con varios de los valores de coincidencia posibles, ejecutando un bloque de código en el cual encuentra la coincidencia, esto quiere decir que compara un valor con uno o más valores del mismo tipo.
     
     .titulo-sexto.color-acento-contenido(data-aos="fade") 
       p.mb-0 #[b Sintaxis]
@@ -371,7 +371,7 @@
         figure
           img(src='@/assets/curso/temas/t8/t1-ic-12.svg', alt='')
       .col-lg-10(data-aos="fade-") 
-        p.mb-3 Los ciclos o bucles iteran elementos de rangos de números, matrices o caracteres de una cadena sobre una secuencia. Entre los bucles más utilizados se encuentra el ciclo #[b for] y el ciclo #[b while].
+        p.mb-3 Los ciclos o bucles iteran elementos de rangos de números, matrices o caracteres de una cadena sobre una secuencia. Entre los bucles más utilizados se encuentra el ciclo #[b #[em for]] y el ciclo #[b #[em while]].
     
     h3(data-aos="fade") Estructura ciclo for
 
@@ -396,11 +396,11 @@
               figure
                 img.w-auto(src='@/assets/curso/temas/t8/p8.png', alt='Ejemplo de codigo')
     
-    h3.titulo-tercero(data-aos="fade") Estructura ciclo while
+    h3.titulo-tercero(data-aos="fade") Estructura ciclo #[em while]
     ul.lista-ul--color.fa-ul.mb-0(data-aos="fade")
       li
         i.fas.fa-check
-        span.mb-0 Una declaración #[b while] hace un proceso de iteración hasta que la condición sea falsa.
+        span.mb-0 Una declaración #[b #[em while]] hace un proceso de iteración hasta que la condición sea falsa.
       li
         i.fas.fa-check
         span El uso de este tipo de bucles se hace normalmente cuando no se conoce el número de iteraciones.
@@ -437,7 +437,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[b Enlace web.] Enlace web. https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html 
+                  p #[b Enlace web.] "Swift - Documentación"
 
 
 

@@ -110,12 +110,12 @@
               figure.mb-4.mb-lg-0
                 img(src='@/assets/curso/temas/t9/t3-i5.svg', alt='') 
             .col-lg-10
-              p.mb-5  A continuación, puede #[b profundizar sobre el lenguaje de programación Swift] de forma más detallada, para esto se invita a que visite la página:
+              p.mb-4 Le invitamos a consultar el siguiente video con el fin de profundizar más sobre el lenguaje de programación Swift.
               a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=xTy6BWV4NR8" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[b Enlace web.] https://www.youtube.com/watch?v=xTy6BWV4NR8
+                  p #[b Enlace web.] Descarga, instalación y configuración simple Xcode
 
 
     Separador
@@ -160,10 +160,8 @@
             figure.mb-5
               img.w-auto(src='@/assets/curso/temas/t9/t2-i8.png', alt='') 
 
-    p.mb-5(data-aos="fade")  Una vez preparada la información y la identificación de la aplicación y del desarrollador podrá proceder a la creación de un proyecto, para dar inicio a un proyecto en Xcode se selecciona la ruta que se muestra en la siguiente figura:
-    
-    h3(data-aos="fade") Archivo>Nuevo>Proyecto
-    
+    p.mb-4(data-aos="fade")  Una vez preparada la información y la identificación de la aplicación y del desarrollador podrá proceder a la creación de un proyecto, para dar inicio a un proyecto en Xcode se debe acceder al panel de plantillas mediante la siguiente ruta "Archivo > Nuevo > Proyecto"
+       
     .row.justify-content-center.mb-5(data-aos="fade-down") 
       .col-lg-6
         figure.mb-3
@@ -221,7 +219,7 @@
           img(src='@/assets/curso/temas/t9/g2.png', alt='Ejemplo de creacion de interfaz SwiftUI') 
         figcaption Nota. https://i.blogs.es/bc4cb2/screenshot-2019-06-04-at-20.38.41-2-/1366_2000.jpg
 
-    p.mb-4(data-aos="fade") Lo primero que se debe seleccionar al crear un proyecto con #[b Swift]  es el fichero llamado #[b ContentView], que se encarga de crear la pantalla de inicio con código, el cual contiene una estructura que incluye la variable #[b body] que se encarga de devolver diferentes constructores.  
+    p.mb-4(data-aos="fade") Lo primero que se debe seleccionar al crear un proyecto con #[b Swift]  es el fichero llamado #[b #[em ContentView]], que se encarga de crear la pantalla de inicio con código, el cual contiene una estructura que incluye la variable #[b #[em body]] que se encarga de devolver diferentes constructores.  
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
@@ -229,7 +227,7 @@
           figure
             img.w-auto(src='@/assets/curso/temas/t9/t2-cod1.png', alt='Ejemplo de creacion de interfaz SwiftUI') 
 
-    p.mb-4(data-aos="fade") Lo que se encuentra dentro del #[b body] es un constructor que crea un texto y lo ubica en el centro de la pantalla, si se quisiera, por ejemplo, agregar la propiedad de negrita al texto, solo hay que agregar la función #[b bold().] Así:  
+    p.mb-4(data-aos="fade") Lo que se encuentra dentro del #[b #[em body]] es un constructor que crea un texto y lo ubica en el centro de la pantalla, si se quisiera, por ejemplo, agregar la propiedad de negrita al texto, solo hay que agregar la función #[b #[em bold().]] Así:  
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-9
@@ -258,7 +256,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p #[b Enlace web.] https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
+                  p #[b Enlace web.] SwiftUI #[em Essentials -Creating and Combining Views]
 
 
 

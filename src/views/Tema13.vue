@@ -24,7 +24,7 @@
     p.mb-4(data-aos="fade") Para la creación de la cuenta se debe ingresar a la consola de la Google Play y seguir los pasos que se mencionan a continuación.
 
     .tarjeta.tarjeta-acento-botones-suave.p-4
-      LineaTiempoC.color-acento-contenido(data-aos="fade-down")
+      LineaTiempoC.color-acento-contenido.tema13(data-aos="fade-down")
         .row.justify-content-center(titulo="1")
           .col-md-4.mb-4.mb-md-0
             ul.lista-ul--color.color-secuendario.fa-ul

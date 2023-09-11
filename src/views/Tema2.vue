@@ -13,7 +13,7 @@
       .row.align-items-center.justify-content-around
         .col-lg-3.mb-4.mb-lg-0
           figure
-            img.py-lg-4.px-lg-5(src="@/assets/curso/temas/t2/1.svg")
+            img.mx-auto(src="@/assets/curso/temas/t2/1.svg" style="width:180px;")
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p.mb-0 La creación de los elementos del diseño se hace utilizando una jerarquía de objetos #[em View] y #[em ViewGroup] donde los #[em View] son los elementos que el usuario puede visualizar, como son: botones, textos, imágenes, y un #[em ViewGroup] es un contenedor no visible que define la estructura del diseño de los #[em view] y otros objetos.
@@ -24,7 +24,7 @@
     figure.col-md-10.m-auto.mb-5(data-aos="fade-down")
       img(src="@/assets/curso/temas/t2/fig1.svg" alt="Mapa conceptual que presenta la jerarquía de diseño.")
 
-    p(data-aos="fade") Los objetos #[em ViewGroup] son llamados #[em Layout] (diseños) y son de muchos tipos, dependiendo de la distribución y la posición de sus views como, por ejemplo, LinearLayout, RelativeLayout entre otros.
+    p(data-aos="fade") Los objetos #[em ViewGroup] son llamados #[em Layout] (diseños) y son de muchos tipos, dependiendo de la distribución y la posición de sus #[em views] como, por ejemplo, LinearLayout, RelativeLayout entre otros.
     h5.mb-4(data-aos="fade") El diseño en Android se puede trabajar de dos maneras: en XML, o en el editor de diseño (mediante una interfaz de arrastrar y soltar).
 
     .row
@@ -181,38 +181,38 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade") 
       h2#t_2_2 2.2 Controles básicos
 
-    p(data-aos="fade") En Android Studio se encuentra una amplia variedad de controles que se pueden utilizar en la interfaz de usuario, tales como botones (#[em Button]) campos de texto (EditText) vista de imágenes (ImageView) casillas de verificación (CheckBox) botones de selección (RadioButton) etiquetas de texto (TextView) listas (ListView) entre otros.
+    p(data-aos="fade") En Android Studio se encuentra una amplia variedad de controles que se pueden utilizar en la interfaz de usuario, tales como botones (#[em #[b Button]]) campos de texto (#[em #[b EditText]]) vista de imágenes (#[em #[b ImageView]]) casillas de verificación (#[em #[b CheckBox]]) botones de selección (#[em #[b RadioButton]]) etiquetas de texto (#[em #[b TextView]]) listas (#[em #[b ListView]]) entre otros.
     h5.mb-4(data-aos="fade") Existen 3 propiedades que son indispensables en la creación de los controles nombrados anteriormente y son:
 
     .row.justify-content-center.mb-3(data-aos="fade-down")
       .col-lg-4.col-md-6.mb-3
         .p-4.p-lg-5.bg-5.h-100
-          h4 Android: layout_width
+          h4 Android: #[em layout_width]
           p Esta propiedad es común a todas las vistas y es la que permite establecer cuál será el ancho usado. Este valor puede ser fijado referente al contenido que se va a mostrar o referente a la vista que lo contiene
       .col-lg-4.col-md-6.mb-3
         .p-4.p-lg-5.bg-6.h-100
-          h4 Android: layout_height
+          h4 Android: #[em layout_height]
           p Esta propiedad es común a todas las vistas y es la que permite establecer cuál será el alto usado. Este valor puede ser fijado referente al contenido que se va a mostrar o referente a la vista que lo contiene.
       .col-lg-4.col-md-6.mb-3
         .p-4.p-lg-5.bg-5.h-100
-          h4 Android: id
+          h4 Android: #[em id]
           p.mb-0 Define el identificador asociado a la vista para ser referenciado por código Java. la forma de crear un identificador es la siguiente:
           p #[strong Android:id=“@+id/myText”] El símbolo @+id/ quiere decir que se está generando un nuevo identificador, esto provocará que la clase R del paquete gen del proyecto cree una referencia de este objeto para que luego pueda ser manipulado por código.
 
-    h5(data-aos="fade") Los valores que pueden tomar las propiedades de Android: layout_width, y Android: layout_height los cuales aplican para todos los controles son:
+    h5(data-aos="fade") Los valores que pueden tomar las propiedades de Android: #[em layout_width], y Android: #[em layout_height] los cuales aplican para todos los controles son:
 
     .row.justify-content-center.mb-3
       .col-md-6.mb-3(data-aos="fade-right")
         .p-4.p-lg-5.bg-4.h-100
-          p #[strong MATCH_PARENT,] lo que significa que la vista va a tener el tamaño de su padre, en este caso el de la pantalla.
+          p #[strong #[em MATCH_PARENT],] lo que significa que la vista va a tener el tamaño de su padre, en este caso el de la pantalla.
       .col-md-6.mb-3(data-aos="fade-left")
         .p-4.p-lg-5.bg-4.h-100
-          p #[strong WRAP_CONTENT,]  lo que significa que el tamaño de la vista se adaptará a lo que escriban en su contenido.
+          p #[strong #[em WRAP_CONTENT],]  lo que significa que el tamaño de la vista se adaptará a lo que escriban en su contenido.
       .col-md-8.mb-3(data-aos="fade-down")
         .p-4.p-lg-5.bg-4.h-100
           p #[strong PERSONALIZADO:] también se puede definir el alto y el ancho con valores personalizados con unidad de medida dp (pixeles independientes de densidad), ejemplo:
-          h5 #[strong android: layout_width= “50dp”]
-          h5 #[strong android: layout_height=”200dp”]
+          h5 #[strong android: #[em layout_width]= “50dp”]
+          h5 #[strong android: #[em layout_height]=”200dp”]
 
     p.mb-4(data-aos="fade") Estas tres propiedades básicas son las principales en los componentes que se describen a continuación.
 
@@ -220,38 +220,38 @@
       img(src="@/assets/curso/temas/t2/18.svg" )
 
     h3(data-aos="fade") Botones
-    p.mb-4(data-aos="fade") Un botón (Button) es un elemento de la interfaz en el que el usuario puede tocar o hacer clic para realizar una acción. En la tabla 1, puede observarse un ejemplo de un Button, con sus propiedades básicas:
+    p.mb-4(data-aos="fade") Un botón (#[em Button]) es un elemento de la interfaz en el que el usuario puede tocar o hacer clic para realizar una acción. En la tabla 1, puede observarse un ejemplo de un Button, con sus propiedades básicas:
     
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade") 
-      p.mb-0 #[strong Tabla 1.] Propiedades básicas Button
-    .table-a.col-md-10.mb-4(data-aos="fade-down")
+      p.mb-0 #[strong Tabla 1.] Propiedades básicas #[em Button]
+    .table-a.col-md-10.mb-5(data-aos="fade-down")
       table.tabla__1(width="100%")
         thead.bg-6
           tr
            th 
-            h4.mb-0 Button 
+            h4.mb-0 #[em Button] 
            th 
             h4.mb-0 Propiedad básica
         tbody
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%")
-              h5.mb-0 android:layout_width
+              h5.mb-0 android:#[em layout_width]
             td(style="width:70%") Define el ancho de la vista
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%")
-              h5.mb-0 android:layout_height
+              h5.mb-0 android:#[em layout_height]
             td(style="width:70%") Define el alto de la vista
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%")
-              h5.mb-0 android:id
+              h5.mb-0 android:#[em id]
             td(style="width:70%") Define el identificador asociado a la vista para ser referenciado por código java
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%")
-              h5.mb-0 android:text
+              h5.mb-0 android:#[em text]
             td(style="width:70%") Define el texto asociado a la vista
 
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade") 
-      p.mb-0 XML Creation Button
+      p.mb-0 XML creación de un botón
     figure.col-md-4.mb-4(data-aos="fade-down")
       img(src="@/assets/curso/temas/t2/19.svg" )
 
@@ -262,10 +262,10 @@
 
 
     h3(data-aos="fade") Texto e Imágenes
-    p(data-aos="fade") Unos de los controles más utilizados son los referentes a los textos e imágenes, ya que son con los que más interactúa el usuario. A continuación, se realizará una descripción de tres de los componentes básicos más imprescindibles para el desarrollo de nuestras aplicaciones: los textos o etiquetas (TextView) las imágenes (ImageView) y los cuadros de texto (EditText).
+    p(data-aos="fade") Unos de los controles más utilizados son los referentes a los textos e imágenes, ya que son con los que más interactúa el usuario. A continuación, se realizará una descripción de tres de los componentes básicos más imprescindibles para el desarrollo de nuestras aplicaciones: los textos o etiquetas (#[em #[b TextView]]) las imágenes (#[em #[b ImageView]]) y los cuadros de texto (#[em #[b EditText]]).
 
     .p-4.p-lg-5.bg-8.mb-5(data-aos="fade")
-      p.mb-0 #[strong TextView:] es un control utilizado para desplegar contenido textual generalmente estático, tiene la propiedad de acoplarse al control que lo contenga y no captura el foco en ningún momento por lo que generalmente no se programa ningún evento sobre él, sus propiedades básicas son las siguientes:
+      p.mb-0 #[strong #[em TextView]:] es un control utilizado para desplegar contenido textual generalmente estático, tiene la propiedad de acoplarse al control que lo contenga y no captura el foco en ningún momento por lo que generalmente no se programa ningún evento sobre él, sus propiedades básicas son las siguientes:
 
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade") 
       p.mb-0 #[strong Tabla 2.] Propiedades básicas TextView
@@ -274,95 +274,95 @@
         thead.bg-6
           tr
            th 
-            h4.mb-0 TextView 
+            h4.mb-0 #[em TextView ]
            th 
             h4.mb-0 Propiedad básica
         tbody
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:layout_width
+              h5.mb-0 android:#[em layout_width]
             td(style="width:70%;") Define el ancho de la vista.
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;")
-              h5.mb-0 android:layout_height
+              h5.mb-0 android:#[em layout_height]
             td(style="width:70%;") Define el alto de la vista.
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:id
+              h5.mb-0 android:#[em id]
             td(style="width:70%;") Define el identificador asociado a la vista para ser referenciado por código java.
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:text
+              h5.mb-0 android:#[em text]
             td(style="width:70%;") 
               p.mb-1 Establece cual es el contenido a ser mostrado por el #[strong #[em TextView]].
               p.mb-1 Existen dos formas de asociar el texto a una vista, la primera forma y más simple es asociar el texto de forma directa:
-              p.mb-1 #[strong android:text=]“Hola Mundo”
+              p.mb-1 #[strong android:#[em text]=]“Hola Mundo”
               p La segunda forma es por medio de archivo #[strong #[em string XML]] ubicado dentro de la carpeta values de los recursos del proyecto y asociar cada uno de los textos con una llave respectiva así:
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 Archivo XML String
+                p.mb-0 Archivo XML #[em #[b String]]
               figure
                 img(src="@/assets/curso/temas/t2/41.png" )
-              p Ya luego se referencia el contenido por medio de este archivo XML de la siguiente forma: #[strong android:text="@string/boton2"]
+              p Ya luego se referencia el contenido por medio de este archivo XML de la siguiente forma: #[strong android:#[em text]="@#[em string]/boton2"]
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android: textColor
+              h5.mb-0 android: #[em textColor]
             td(style="width:70%;") Esta propiedad nos permite definir cuál va a ser el color del texto.
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;")
-              h5.mb-0 android: textSize
-            td(style="width:70%;") Con esta propiedad podemos definir el tamaño de la fuente la unidad es sp. Ejemplo: #[strong android:textSize="20sp"]
+              h5.mb-0 android: #[em textSize]
+            td(style="width:70%;") Con esta propiedad podemos definir el tamaño de la fuente la unidad es sp. Ejemplo: #[strong android:#[em textSize]="20sp"]
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android: textStyle
+              h5.mb-0 android: #[em textStyle]
             td(style="width:70%;")
               p Define el estilo de la fuente a usar, tiene los siguientes valores:
               .titulo-sexto.color-acento-contenido.mb-2
                 p.mb-0 Valores estilo de texto
               figure.col-md-7.mb-3
                 img(src="@/assets/curso/temas/t2/22.svg" )
-              p Ejemplo: android: textStyle="italic"
+              p Ejemplo: #[b android: #[em textStyle]="italic"]
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;")
-              h5.mb-0 android: typeface
-            td(style="width:70%;") Esta propiedad me permite cambiar el tipo de fuente dentro de un conjunto de 4 posibles opciones: normal, sans, serif y monospace, se pueden descargar otro tipo de fuentes.
+              h5.mb-0 android: #[em typeface]
+            td(style="width:70%;") Esta propiedad me permite cambiar el tipo de fuente dentro de un conjunto de 4 posibles opciones: normal, #[em #[b sans, serif]] y monospace, se pueden descargar otro tipo de fuentes.
 
-    h5(data-aos="fade") Ejemplo de TextView con sus propiedades básicas:
+    h5(data-aos="fade") Ejemplo de #[em TextView] con sus propiedades básicas:
 
     .row
       .col-md-6.mb-3(data-aos="fade-right")
         figure
           img(src="@/assets/curso/temas/t2/23.svg" )
       .col-md-6.mb-3(data-aos="fade-left")
-        p El TextView quedaría así:
+        p El #[em #[b TextView]] quedaría así:
         figure.col-md-8
           img(src="@/assets/curso/temas/t2/24.svg" )
 
     .p-4.p-lg-5.bg-8.mb-5(data-aos="fade")
-      p #[strong.h4 ImageView:] es un control de imágenes que permite acceder a los recursos de imágenes (#[em drawable] o #[em mipmap]) permitiendo mostrar las imágenes en la aplicación, su propiedad principal es android:src que permite indicar la imagen a mostrar del proyecto. Lo primero que se debe hacer es copiar la imagen que se quiere mostrar a la carpeta #[em drawable] del proyecto /res/drawable y después en el XML se debe indicar la ruta de origen así: android:src=” @drawable/imagen”
-      p.mb-0 Aparte de las propiedades de #[em width] y #[em heigth] que se encuentran en todos los #[em view] están las siguientes básicas para el ImageView:
+      p #[strong.h4 #[em ImageView:]] es un control de imágenes que permite acceder a los recursos de imágenes (#[em drawable] o #[em mipmap]) permitiendo mostrar las imágenes en la aplicación, su propiedad principal es android:src que permite indicar la imagen a mostrar del proyecto. Lo primero que se debe hacer es copiar la imagen que se quiere mostrar a la carpeta #[em drawable] del proyecto /res/#[em #[b drawable]] y después en el XML se debe indicar la ruta de origen así: android:src=” @#[em #[b drawable]]/imagen”
+      p.mb-0 Aparte de las propiedades de #[em width] y #[em heigth] que se encuentran en todos los #[em view] están las siguientes básicas para el #[em #[b ImageView]]:
 
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade") 
-      p.mb-0 #[strong Tabla 3.] Propiedades básicas ImageView
+      p.mb-0 #[strong Tabla 3.] Propiedades básicas #[em #[b ImageView]]
     .table-a.col-md-10.mb-5(data-aos="fade-down")
       table.tabla__1(width="100%")
         thead.bg-6
           tr
            th 
-            h4.mb-0 ImageView  
+            h4.mb-0 #[em ImageView]
            th 
             h4.mb-0 Propiedad básica
         tbody
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:src
-            td(style="width:70%;") Establece la imagen del ImageView.
+              h5.mb-0 android:#[em src]
+            td(style="width:70%;") Establece la imagen del #[em #[b ImageView]].
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:scaleType
-            td(style="width:70%;") Controla cómo se debe cambiar el tamaño o mover la imagen para que coincida con el tamaño de este ImageView.
+              h5.mb-0 android:#[em scaleType]
+            td(style="width:70%;") Controla cómo se debe cambiar el tamaño o mover la imagen para que coincida con el tamaño de este #[em #[b ImageView]].
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:tint
+              h5.mb-0 android:#[em tint]
             td(style="width:70%;") El color de tinte de la imagen.
 
     p.mb-4(data-aos="fade") Ejemplo de ImageView con sus propiedades básicas.
@@ -377,31 +377,31 @@
           img(src="@/assets/curso/temas/t2/26.svg" )
 
     .p-4.p-lg-5.bg-8.mb-5(data-aos="fade")
-      p.mb-0 #[strong EditText:] es un elemento de la interfaz que permite al usuario ingresar y editar el texto. Una de sus propiedades más funcionales es la de inputType que define el tipo de entrada que va a tener el cuadro de texto, el valor se aplica dependiendo de lo que se quiere ingresar: por ejemplo, un correo electrónico (textEmailAdress) edad (#[em number]) apellido (#[em text]) entre otras, la elección del tipo de entrada configura el tipo de teclado que se muestra.
+      p.mb-0 #[strong #[em EditText]:] es un elemento de la interfaz que permite al usuario ingresar y editar el texto. Una de sus propiedades más funcionales es la de #[em #[b inputType]] que define el tipo de entrada que va a tener el cuadro de texto, el valor se aplica dependiendo de lo que se quiere ingresar: por ejemplo, un correo electrónico (#[em #[b textEmailAdress]]) edad (#[em number]) apellido (#[em text]) entre otras, la elección del tipo de entrada configura el tipo de teclado que se muestra.
 
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade") 
-      p.mb-0 #[strong Tabla 4.] Propiedades básicas EditText
+      p.mb-0 #[strong Tabla 4.] Propiedades básicas #[em #[b EditText]]
     .table-a.col-md-10.mb-5(data-aos="fade-down")
       table.tabla__1(width="100%")
         thead.bg-6
           tr
            th 
-            h4.mb-0 EditText  
+            h4.mb-0 #[em EditText]  
            th 
             h4.mb-0 Propiedad básica
         tbody
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:inputType
+              h5.mb-0 android:#[em inputType]
             td(style="width:70%;") Establece el tipo de dato que ingresará en el campo de texto. Para propiedad existen los siguientes datos: #[em text, number, texturi, textpassword, phone, date,] entre otros.
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 #[u android:hint]
+              h5.mb-0 #[u android:#[em hint]]
             td(style="width:70%;") Esta propiedad permite desplegar un texto sobre el control a manera de ayuda, mientras el usuario aún no ingresa información (preferible sobre la propiedad #[em text]).
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 #[u android:text]
-            td(style="width:70%;") Al igual que en el TextView puedo definir cuál es el texto que se mostrará en el control.
+              h5.mb-0 #[u android:#[em text]]
+            td(style="width:70%;") Al igual que en el #[em #[b TextView]] puedo definir cuál es el texto que se mostrará en el control.
 
     p.mb-4(data-aos="fade") Ejemplo de EditText con sus propiedades básicas.
 
@@ -414,14 +414,14 @@
           img(src="@/assets/curso/temas/t2/28.svg" )
 
 
-    h3(data-aos="fade") Checkbox y Radiobutton
-    p.mb-4(data-aos="fade") Otros de los controles muy utilizados en las aplicaciones son los que permiten hacer una selección o un chequeo de alguna opción en las aplicaciones, Android cuenta con dos tipos: checkboxes y los radiobuttons.
+    h3(data-aos="fade") #[em Checkbox] y #[em Radiobutton]
+    p.mb-4(data-aos="fade") Otros de los controles muy utilizados en las aplicaciones son los que permiten hacer una selección o un chequeo de alguna opción en las aplicaciones, Android cuenta con dos tipos: #[em #[b checkboxes]] y los #[em #[b radiobuttons]].
 
     .p-4.p-lg-5.bg-8.mb-5(data-aos="fade")
-      p.mb-0 #[strong Checkbox:] las casillas de verificación permiten que el usuario seleccione una o más opciones de un grupo. Aparte de las propiedades de #[em width] y #[em heigth] que se encuentran en todos los #[em view] están las siguientes básicas para el Checkbox:
+      p.mb-0 #[strong #[em Checkbox]:] las casillas de verificación permiten que el usuario seleccione una o más opciones de un grupo. Aparte de las propiedades de #[em width] y #[em heigth] que se encuentran en todos los #[em view] están las siguientes básicas para el #[em #[b Checkbox]]:
 
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade") 
-      p.mb-0 #[strong Tabla 5.] Propiedades básicas Checkbox
+      p.mb-0 #[strong Tabla 5.] Propiedades básicas #[em #[b Checkbox]]
     .table-a.col-md-10.mb-5(data-aos="fade-down")
       table.tabla__1(width="100%")
         thead.bg-6
@@ -433,15 +433,15 @@
         tbody
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:checked
-            td(style="width:70%;") Establece el estado actual de Checkbox.
+              h5.mb-0 android:#[em checked]
+            td(style="width:70%;") Establece el estado actual de #[em #[b Checkbox]].
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:text
-            td(style="width:70%;") Esta propiedad define el texto del Checkbox.
+              h5.mb-0 android:#[em text]
+            td(style="width:70%;") Esta propiedad define el texto del #[em #[b Checkbox]].
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:id
+              h5.mb-0 android:#[em id]
             td(style="width:70%;") Al igual que en los otros controles define el identificador único asociado a la vista para ser referenciado por código java.
 
     p.mb-4(data-aos="fade") Para definir un control de este tipo se utiliza el código siguiente, que define dos Checkbox con los textos español e inglés.
@@ -451,36 +451,36 @@
         figure
           img(src="@/assets/curso/temas/t2/29.svg" )
       .col-md-6.mb-3(data-aos="fade-left")
-        p Los Checkbox quedarían así:
+        p Los #[em #[b Checkbox]] quedarían así:
         figure.col-md-8
           img(src="@/assets/curso/temas/t2/30.svg" )
 
 
     .p-4.p-lg-5.bg-8.mb-5(data-aos="fade")
-      p.mb-0 #[strong RadioButton:] a diferencia del CheckBox el control RadioButton permite realizar una selección única entre una lista de opciones. En Android, un grupo de botones radio button se define mediante un elemento RadioGroup, el cual contiene todos los elementos RadioButton necesarios. 
+      p.mb-0 #[strong #[em RadioButton]:] a diferencia del #[em #[b CheckBox]] el control #[em #[b RadioButton]] permite realizar una selección única entre una lista de opciones. En Android, un grupo de botones radio button se define mediante un elemento RadioGroup, el cual contiene todos los elementos #[em #[b RadioButton]] necesarios. 
 
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade") 
-      p.mb-0 #[strong Tabla 6.] Propiedades básicas RadioButton
+      p.mb-0 #[strong Tabla 6.] Propiedades básicas #[em #[b RadioButton]]
     .table-a.col-md-10.mb-5(data-aos="fade-down")
       table.tabla__1(width="100%")
         thead.bg-6
           tr
            th 
-            h4.mb-0 RadioButton  
+            h4.mb-0 #[em RadioButton]
            th 
             h4.mb-0 Propiedad básica
         tbody
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:checked
-            td(style="width:70%;") Establece el estado actual de seleccionado por defecto del RadioButton.
+              h5.mb-0 android:#[em checked]
+            td(style="width:70%;") Establece el estado actual de seleccionado por defecto del #[em #[b RadioButton]].
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:text
-            td(style="width:70%;") Esta propiedad define el texto del RadioButton.
+              h5.mb-0 android:#[em text]
+            td(style="width:70%;") Esta propiedad define el texto del #[em #[b RadioButton]].
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:id
+              h5.mb-0 android:#[em id]
             td(style="width:70%;") Al igual que en los otros controles define el identificador único asociado a la vista para ser referenciado por código java.
 
     p(data-aos="fade") Para definir un control de este tipo se utiliza como componente Padre un RadioGroup (Padre) y como hijos dos RadioButton (Hijo), el RadioGroup es el que permite que solo sea seleccionable una sola opción en caso de crear los RadioButton, sin un RadioGroup dejará seleccionar todas las opciones, lo que no es el fin del componente.
@@ -498,10 +498,10 @@
 
 
     h3(data-aos="fade") Controles de Selección
-    p.mb-4(data-aos="fade") Los diferentes controles de los cuales dispone Android para seleccionar opciones dentro de una lista de posibilidades se llaman Spinner (para listas desplegables) y ListView (para listas fijas).
+    p.mb-4(data-aos="fade") Los diferentes controles de los cuales dispone Android para seleccionar opciones dentro de una lista de posibilidades se llaman #[em #[b Spinner]] (para listas desplegables) y #[em #[b ListView]] (para listas fijas).
 
     .p-4.p-lg-5.bg-8.mb-5(data-aos="fade")
-      p #[strong Spinner:] este permite seleccionar un valor en un conjunto, al presionar clic sobre ella muestra una especie de lista emergente al usuario con todas las opciones disponibles a seleccionar, su propiedad más importante es android: entries = “@array/lista” que permite fijar el contenido de datos que se quiere mostrar en la lista.
+      p #[strong #[em Spinner]:] este permite seleccionar un valor en un conjunto, al presionar clic sobre ella muestra una especie de lista emergente al usuario con todas las opciones disponibles a seleccionar, su propiedad más importante es android: entries = “@array/lista” que permite fijar el contenido de datos que se quiere mostrar en la lista.
       p.mb-0 #[strong Para añadir una lista de este tipo se deben seguir los pasos que se nombran a continuación:]
 
     p(data-aos="fade") 1. En los recursos /res/values/strings se debe crear el arreglo de #[em String] (string-array) con los valores que queremos mostrar en el spinner.
@@ -518,9 +518,9 @@
       img(src="@/assets/curso/temas/t2/35.svg" )
 
     .p-4.p-lg-5.bg-8.mb-5(data-aos="fade")
-      p #[strong ListView:] permite mostrar al usuario una lista de opciones seleccionables directamente sobre el propio control, sin listas emergentes como en el caso del control Spinner. En caso de existir más opciones de las que se pueden mostrar sobre el control se podrá hacer scroll sobre la lista para acceder al resto de elementos.
-      p Para crear el ListView, así como en el Spinner también se debe crear el arreglo de elementos que se quiere mostrar en la lista, para este ejemplo se utilizará el mismo arreglo de ciudades que se utilizó para el Spinner.
-      p.mb-0 Cuando los elementos que se quieren mostrar en la lista o en el Spinner no son estáticos se crea el arreglo desde el código Java.
+      p #[strong #[em ListView]:] permite mostrar al usuario una lista de opciones seleccionables directamente sobre el propio control, sin listas emergentes como en el caso del control #[em #[b Spinner]]. En caso de existir más opciones de las que se pueden mostrar sobre el control se podrá hacer scroll sobre la lista para acceder al resto de elementos.
+      p Para crear el #[em #[b ListView]], así como en el #[em #[b Spinner]] también se debe crear el arreglo de elementos que se quiere mostrar en la lista, para este ejemplo se utilizará el mismo arreglo de ciudades que se utilizó para el #[em #[b Spinner]].
+      p.mb-0 Cuando los elementos que se quieren mostrar en la lista o en el #[em #[b Spinner]] no son estáticos se crea el arreglo desde el código Java.
 
     p Ejemplo de creación de un ListView:(data-aos="fade")
     figure.col-md-7.mb-4(data-aos="fade-down")

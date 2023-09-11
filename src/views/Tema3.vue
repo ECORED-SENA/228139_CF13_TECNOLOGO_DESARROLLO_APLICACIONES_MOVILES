@@ -7,16 +7,16 @@
         span 3
       h1 Eventos <em>listeners</em>
 
-    p.mb-4(data-aos="fade") En Android para crear la interacción del usuario con la aplicación se hace a través de eventos. Por ejemplo, cuando se toca una vista (como un botón) se llama al método onTouchEvent () del objeto utilizando los objetos de escucha de eventos para detectar la interacción del usuario.
+    p.mb-4(data-aos="fade") En Android para crear la interacción del usuario con la aplicación se hace a través de eventos. Por ejemplo, cuando se toca una vista (como un botón) se llama al método #[em #[b onTouchEvent]] () del objeto utilizando los objetos de escucha de eventos para detectar la interacción del usuario.
 
     .bloque-texto-a.color-primario.p-4.mb-5(data-aos="fade-down")
       .row.align-items-center.justify-content-around
         .col-lg-3.mb-4.mb-lg-0
           figure
-            img.py-lg-4.px-lg-5(src="@/assets/curso/temas/t3/1.svg")
+            img.mx-auto(src="@/assets/curso/temas/t3/1.svg" style="width:180px;")
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p.mb-0 Todo Los #[em Event Listeners] (objetos de escucha de eventos) son interfaces de la clase #[em view] que contienen un método de llamado el cual será invocados cuando la vista registre una interacción del usuario con el elemento de la interfaz gráfica. Esto quiere decir que los #[em view] como Button, ImageView, RadioButton, Checkbox, al interactuar con el usuario el objeto escuchará y llamará al método correspondiente a estos view el cual ejecutará una acción determinada.
+            p.mb-0 Todo Los #[em Event Listeners] (objetos de escucha de eventos) son interfaces de la clase #[em view] que contienen un método de llamado el cual será invocados cuando la vista registre una interacción del usuario con el elemento de la interfaz gráfica. Esto quiere decir que los #[em view] como #[em #[b Button]], #[em #[b ImageView]], #[em #[b RadioButton]], #[em #[b Checkbox]], al interactuar con el usuario el objeto escuchará y llamará al método correspondiente a estos view el cual ejecutará una acción determinada.
 
     p.mb-0(data-aos="fade") La ejecución de los eventos se realiza en el código Java ubicado en la carpeta /java
     p(data-aos="fade") Para fijar un listener se debe implementar y agregar los métodos del evento correspondiente a cada #[em view] mediante el método setOn.
@@ -29,11 +29,11 @@
           figure
             img(src="@/assets/curso/temas/t3/5.png")
         .col-lg-11
-          p Se muestra la creación de un botón en el #[em layout] llamado activity_main.xml, el código XML tiene creado un contenedor de tipo LinearLayout con su propiedad vertical y el Button es creado con sus propiedades básicas, la propiedad que se necesita para referenciar es la del id el nombre del identificador que se colocó para el ejemplo fue btnclic, y en la vista de diseño se puede ver cómo queda el button. 
-          p #[strong Estas son las diferentes vistas en las que se puede trabajar en el #[em layout].]
-          p.mb-0 #[strong Code]: permite visualizar solo el código XML.
-          p.mb-0 #[strong Split:] permite visualizar el código y el diseño como se ve en la figura.
-          p #[strong Desing:] permite visualizar solo el editor de diseño.
+          p Se muestra la creación de un botón en el #[em layout] llamado activity_main.xml, el código XML tiene creado un contenedor de tipo #[em #[b LinearLayout]] con su propiedad vertical y el #[em #[b Button]] es creado con sus propiedades básicas, la propiedad que se necesita para referenciar es la del id el nombre del identificador que se colocó para el ejemplo fue #[em #[b btnclic]], y en la vista de diseño se puede ver cómo queda el button. 
+          p #[b Estas son las diferentes vistas en las que se puede trabajar en el #[em layout].]
+          p.mb-0 #[b #[em Code]]: permite visualizar solo el código XML.
+          p.mb-0 #[b #[em Split]:] permite visualizar el código y el diseño como se ve en la figura.
+          p #[b #[em Desing]:] permite visualizar solo el editor de diseño.
 
       .row.justify-content-center(titulo="2. En la clase Java declarar el tipo de <em>view</em> y referenciarlo.")
         .col-lg-10.mb-3
@@ -59,20 +59,20 @@
               tbody
                 tr(style="background-color:#C1F8FF")
                   td(style="border-right:2px #AFAFAF solid;width:30%")
-                    h6.mb-0 ListView
-                  td(style="width:70%") SetOnItemClickListener
+                    h6.mb-0 #[em ListView]
+                  td(style="width:70%") #[em #[b SetOnItemClickListener]]
                 tr(style="background-color:#A9EBF4")
                   td(style="border-right:2px #AFAFAF solid;width:30%")
-                    h6.mb-0 Spinner
-                  td(style="width:70%") SetOnItemSelectedListener
+                    h6.mb-0 #[em Spinner]
+                  td(style="width:70%") #[em #[b SetOnItemSelectedListener]]
                 tr(style="background-color:#C1F8FF")
                   td(style="border-right:2px #AFAFAF solid;width:30%")
-                    h6.mb-0 ImageView
-                  td(style="width:70%") SetOnClickListener
+                    h6.mb-0 #[em ImageView]
+                  td(style="width:70%") #[em #[b SetOnClickListener]]
                 tr(style="background-color:#A9EBF4")
                   td(style="border-right:2px #AFAFAF solid;width:30%")
-                    h6.mb-0 RadioButton
-                  td(style="width:70%") SetOnClickListener
+                    h6.mb-0 #[em RadioButton]
+                  td(style="width:70%") #[em #[b SetOnClickListener]]
 
     
     .tarjeta.p-3.col-lg-10.m-auto.bg-gradiente(data-aos="fade-down")
@@ -83,7 +83,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3 Amplíe sus conocimientos
-              p.mb-0 Para ampliar la información, lo invitamos a ver el video Capítulo 14 – Interacción con Botones, TextView, ImageView.
+              p.mb-0 Para ampliar la información, lo invitamos a ver el video Capítulo 14 – Interacción con Botones, #[em TextView], #[em ImageView].
             .col-sm-auto
               a.boton.boton--b.color-acento-contenido(href="https://www.youtube.com/watch?v=-z8zTGTo7vA" target="_blank")
                 span Ir al sitio web

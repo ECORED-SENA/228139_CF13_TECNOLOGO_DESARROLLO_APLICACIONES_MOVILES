@@ -64,19 +64,19 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade")
-      h2#t_7_2 7.2 VideoView
+      h2#t_7_2 7.2 #[em VideoView]
 
-    p(data-aos="fade") La clase VideoView permite mostrar un archivo de video. La clase VideoView puede cargar videos de varias fuentes (como recursos o proveedores de contenido). La propiedad principal de VideoView es el setVideoURI donde se establece la ruta del video a mostrar.
-    h5(data-aos="fade") A continuación, se realiza un ejemplo para mirar el funcionamiento del VideoView.
+    p(data-aos="fade") La clase #[b #[em VideoView]] permite mostrar un archivo de video. La clase #[b #[em VideoView]] puede cargar videos de varias fuentes (como recursos o proveedores de contenido). La propiedad principal de #[b #[em VideoView]] es el #[b #[em setVideoURI]] donde se establece la ruta del video a mostrar.
+    h5(data-aos="fade") A continuación, se realiza un ejemplo para mirar el funcionamiento del #[em VideoView].
     p(data-aos="fade") #[strong 1.] Al igual que con el MediaPlayer se debe crear la carpeta raw y guardar en esta carpeta el video de extensión mp4. carpeta res/raw
-    p.mb-4(data-aos="fade") #[strong 2.] En el #[em Layout] se crea el componente VideoView.
+    p.mb-4(data-aos="fade") #[strong 2.] En el #[em Layout] se crea el componente #[b #[em VideoView]].
     
     figure.mb-5.col-lg-6.m-auto(data-aos="fade-down")
       img(src="@/assets/curso/temas/t7/6.svg" )
 
     p.mb-4 #[strong 3.] En la clase Java se realiza todo el código descrito paso a paso en la figura.
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade") 
+    .titulo-sexto.color-acento-contenido.col-lg-9.m-auto(data-aos="fade") 
       p.mb-0 #[b Figura 3.] Código Java VideoView
     figure.mb-5.col-lg-9.m-auto(data-aos="fade-down")
       img(src="@/assets/curso/temas/t7/7.svg" alt="Paso a paso donde se realiza todo el código.")

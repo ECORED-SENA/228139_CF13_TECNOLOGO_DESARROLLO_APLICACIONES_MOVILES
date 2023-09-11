@@ -114,7 +114,7 @@ export default {
           },
           {
             numero: '7.2',
-            titulo: 'VideoView',
+            titulo: '<em>VideoView</em>',
             hash: 't_7_2',
           },
         ],
@@ -313,8 +313,7 @@ export default {
     },
     {
       tema: '13. Subida aplicación Play Store',
-      referencia:
-        'EDteam. (2020). ¿Cómo subir tu app a la Play Store? [video]. YouTube.',
+      referencia: 'EDteam. (2020). ¿Cómo subir tu app a la Play Store?',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=EOkKc1Oc92M',
     },
@@ -387,28 +386,27 @@ export default {
   ],
   referencias: [
     {
-      referencia:
-        'Android Developers. (s.f.). <em>Android para desarrolladores.</em>',
+      referencia: 'Android Developers. (s.f.). Android para desarrolladores.',
       link: 'https://developer.android.com',
     },
     {
       referencia:
-        'Android Developers. (s.f.). <em>Documentación para desarrolladores de apps.</em>',
+        'Android Developers. (s.f.). Documentación para desarrolladores de <em>apps.</em>',
       link: 'https://developer.android.com/docs',
     },
     {
       referencia:
-        'Apple. (s.f.). <em>Swift. Un poderoso lenguaje al alcance de todos para crear increíbles apps.</em>',
+        'Apple. (s.f.). Swift. Un poderoso lenguaje al alcance de todos para crear increíbles <em>apps.</em>',
       link: 'https://www.apple.com/co/swift/',
     },
     {
       referencia:
-        'Developer. (s.f.). <em>Obtén ayuda con herramientas y tecnologías, comunícate con extpertos de Apple y más</em>.',
+        'Developer. (s.f.). Obtén ayuda con herramientas y tecnologías, comunícate con extpertos de Apple y más.',
       link: 'https://developer.apple.com/es/support',
     },
     {
       referencia:
-        'Developer. (s.f.). <em>SwiftUI Essentials - Creating and Combining Views</em>.',
+        'Developer. (s.f.). SwiftUI <em>Essentials - Creating and Combining Views.</em>',
       link:
         'https://developer.apple.com/tutorials/swiftui/creating-and-combining-views',
     },

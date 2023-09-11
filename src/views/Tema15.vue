@@ -124,12 +124,12 @@
         .tarjeta.color-secundario.p-3.mb-5.px-lg-5
           .row.justify-content-around.align-items-center
             .col-4.col-sm-2.col-lg-2.mb-3
-              img.px-lg-3(src="@/assets/curso/temas/t15/tema5-llamado.svg")
+              img.px-lg-4(src="@/assets/curso/temas/t15/tema5-llamado.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Llamado a la acción
-                  p.mb-lg-0 A continuación, puede ampliar información sobre el proceso de publicación de una app. Video sobre Google Play Store. Cómo publicar tu primera app Android. https://www.youtube.com/watch?v=vBHmJHp8Ldo
+                  h3.mb-1 GOOGLE PLAY STORE : Cómo PUBLICAR tu primera APP Android
+                  p.mb-lg-0 Le invitamos a consultar el enlace a un video que le permitirá ampliar la información sobre el proceso de publicación de una app.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=vBHmJHp8Ldo')" target="_blank")
                     span Enlace web
