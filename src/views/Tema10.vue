@@ -40,7 +40,7 @@
     .row.mb-5.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade") 
-          p.mb-0 #[b Figura 5.] Ejemplo
+          p.mb-0 #[b Figura 5.] Ejemplo #[em UserDefaults]
         .tarjeta--gris.p-3(data-aos="fade-down")
           figure.mb-5(data-aos-delay='0')
             img.w-auto(src='@/assets/curso/temas/t10/t3-c1.svg', alt='Ejemplo de un UserDefaults')

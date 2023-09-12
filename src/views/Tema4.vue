@@ -26,7 +26,7 @@
     .titulo-sexto.color-acento-contenido.mb-4.col-md-8.m-auto(data-aos="fade") 
       p.mb-0 #[b Figura 2.] Uso Intent explícito
     figure.col-md-8.m-auto.mb-2(data-aos="fade-down")
-      img(src="@/assets/curso/temas/t4/2.svg" alt="Se presenta cómo se usa intent para iniciar una actividad.")
+      img(src="@/assets/curso/temas/t4/figura2.svg" alt="Se presenta cómo se usa intent para iniciar una actividad.")
     figcaption.col-md-8.m-auto.mb-5(data-aos="fade") Nota: Android developer
 
     p.mb-4(data-aos="fade") Se presenta cómo se usa un intent para iniciar una actividad. Cuando el objeto intent nombra un componente de actividad específico de forma explícita, el sistema inicia ese componente al instante.
