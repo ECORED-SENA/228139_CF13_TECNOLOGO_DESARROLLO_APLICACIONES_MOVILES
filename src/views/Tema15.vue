@@ -72,7 +72,7 @@
               p Para estas opciones se deben tener los recursos gráficos como íconos o imágenes que se quiera aparezcan en la Play Store para la publicidad, cada ícono o imagen debe cumplir con los tamaños que se especifican en los campos.
           .col-lg-6.col-11
             figure
-              img(src='@/assets/curso/temas/t15/tema5-slider-5.jpg', alt='3. Ficha Play Store')    
+              img(src='@/assets/curso/temas/t15/imgFichaPlayStore.png', alt='3. Ficha Play Store')    
         .row
           .col-lg-6.mb-4.mb-lg-0
             h4 4. Crear versión 
