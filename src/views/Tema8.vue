@@ -163,22 +163,12 @@
             .tarjeta.tarjeta--gris.p-4
               figure
                 img(src='@/assets/curso/temas/t8/t1-c3.svg', alt='Ejmplo de codigo')
-      .py-3.py-md-4(titulo="Nomenclatura de variables y constantes")
+      .py-3.py-md-4(titulo="Función print")
         .row.mb-5
           .col-md-6.mb-4.mb-md-0.p-4
             h4 Función print
             p.mb-3 Es una función global que permite imprimir uno o varios valores que contienen las constantes o las variables.
-            ul.lista-ul--color.fa-ul.mb-0
-              li
-                i.fas.fa-check
-                | Los nombres de las constantes o variables no pueden contener caracteres de espacio en blanco, símbolos matemáticos, flechas o caracteres especiales.
-              li
-                i.fas.fa-check
-                | No pueden comenzar con un número, aunque los números pueden incluirse en otros lugares dentro del nombre, en el medio o al final.
-              li
-                i.fas.fa-check
-                | No se puede declarar una constante o variable de un cierto tipo, dos veces con el mismo nombre o cambiar el tipo de dato para almacenar valores de un tipo diferente.
-          .col-md-6
+          .col-md-5
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Ejemplo.] 
             .tarjeta.tarjeta--gris.p-4

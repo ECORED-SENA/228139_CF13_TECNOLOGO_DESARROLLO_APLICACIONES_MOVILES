@@ -255,7 +255,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228139_CF13_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -460,9 +460,15 @@ export default {
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de estilo	',
+          cargo: 'Corrector de estilo',
           centro:
             'Centro de la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Metodólogo para formación virtual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
