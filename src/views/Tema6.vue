@@ -7,7 +7,7 @@
         span 6
       h1 Persistencia de datos
 
-    p(data-aos="fade") En el desarrollo móvil siempre es indispensable que las aplicaciones puedan guardar datos ya sea para no perder la información en una nueva ejecución o para manejo de información en bases de datos. La persistencia de datos es una habilidad esencial para que un desarrollador cree aplicaciones de alta calidad. Uno de los métodos más comunes de almacenamiento en Android es el de las Bases de Datos en SQLite.
+    p(data-aos="fade") En el desarrollo móvil siempre es indispensable que las aplicaciones puedan guardar datos, ya sea para no perder la información en una nueva ejecución o para manejo de información en bases de datos. La persistencia de datos es una habilidad esencial para que un desarrollador cree aplicaciones de alta calidad. Uno de los métodos más comunes de almacenamiento en Android es el de las Bases de Datos en SQLite.
 
     
     Separador
@@ -15,14 +15,14 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2#t_6_1 6.1 Bases de datos local SQLite
 
-    p(data-aos="fade") SQLite es un motor de bases de datos relacional de código abierto y actualmente muy popular ya que ofrece particularidades muy útiles como su pequeño tamaño y su ligereza, no necesita servidor, requiere poca configuración y guarda toda la base de datos en un solo fichero. Su uso es muy habitual en aplicaciones de tamaño pequeño. 
+    p(data-aos="fade") SQLite es un motor de bases de datos relacional de código abierto y actualmente muy popular, ya que ofrece particularidades muy útiles como su pequeño tamaño y su ligereza, no necesita servidor, requiere poca configuración y guarda toda la base de datos en un solo fichero. Su uso es muy habitual en aplicaciones de tamaño pequeño. 
     p.mb-4 #[strong Android incluye soporte a SQLite y utiliza el paquete Android. database.sqlite para utilizar las bases de datos.]
 
     .p-4.p-lg-5.bg-4.sombra-1.mb-5
       p El proceso de las bases de datos inicia con la creación de la base de datos, y las tablas, se trabajan con la clase #[b #[em SQliteOpenHelper]].
       p Para crear un esquema de base de datos o actualizar el mismo se debe crear una clase que herede de #[b #[em SQLiteOpenHelper]], donde se implementa el constructor y dos métodos abstractos (obligatorio implementarlos) #[b #[em onCreate]] () y #[b #[em onUpgrade]] () respectivamente.
       p Por medio de los métodos #[b #[em getReadableDatabase]] y #[b #[em getWritableDatabase]] se abre y se consigue una instancia de la base de datos de sólo lectura o de lectura y escritura respectivamente. 
-      p Para la creación de las tablas se ejecutan las sentencias SQL dentro del método onCreate utilizando el método db. execute.
+      p Para la creación de las tablas se ejecutan las sentencias SQL dentro del método #[em onCreate] utilizando el método db. execute.
       p Para la administración de una base de datos SQLitese utiliza la Clase #[b #[em SQLiteDatabase]].
       p.mb-0 #[b #[em SQLiteDatabase]]: tiene métodos para crear, eliminar, ejecutar comandos SQL y realizar otras tareas comunes de administración de bases de datos.
 
@@ -60,7 +60,7 @@
               h5.mb-0 Ejecutar sentencia SQL
             td(style="width:70%") #[b #[em db.execute]]
 
-    p.mb-4 Para reflejar la utilidad de las bases de datos SQLite se realizará un ejemplo de una base de datos para registro de usuarios y de entidades, donde se tendrá una actividad de solicitud de datos para creación actualización y borrado en el BD de información almacenada de forma persistente.
+    p.mb-4 Para reflejar la utilidad de las bases de datos SQLite se realizará un ejemplo de una base de datos para registro de usuarios y de entidades, donde se tendrá una actividad de solicitud de datos para creación, actualización y borrado en el BD de información almacenada de forma persistente.
 
     .tarjeta.p-3.col-lg-10.m-auto.bg-gradiente(data-aos="fade-down")
       .row.justify-content-around.align-items-center
@@ -134,7 +134,7 @@
       ul.lista-ul--color.fa-ul.mb-0
         li 
           i.fas.fa-check
-          span.mb-0 No requiere la instalación de un servidor ni requiere instalación de #[em software] ya que la base de datos está alojada en la nube.
+          span.mb-0 No requiere la instalación de un servidor ni requiere instalación de #[em software], ya que la base de datos está alojada en la nube.
         li 
           i.fas.fa-check
           span.mb-0 El formato de almacenamiento de los datos es en formato JSON, con base de datos no relacional.

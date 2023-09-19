@@ -101,7 +101,7 @@
         .row.justify-content-center
           .col-lg-6.mb-4.mb-lg-0
             h4 7. Clasificación de contenido
-            p Una vez subida la app seguimos con el proceso y nos pedirá la clasificación de contenido.
+            p Una vez subida la #[em app] seguimos con el proceso y nos pedirá la clasificación de contenido.
             .tarjeta-amarillo-border.p-3.p-lg-4.mb-4
               h5 Clasificación de contenido
               p.mb-0 Consiste en completar el cuestionario, con el fin de configurar para qué públicos es apta la app. Este paso aparecerá después de subir el código fuente. Si se omite este paso, la app de Play Store no estará clasificada y Google podría eliminarla. Para esto, se debe ingresar a Play Console, seleccionar la aplicación y, en el menú lateral de la izquierda, seleccionar la opción “Presencia en Google Play Store”, seguido de “Clasificación de contenido”.
@@ -129,7 +129,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 GOOGLE PLAY STORE : Cómo PUBLICAR tu primera APP Android
-                  p.mb-lg-0 Le invitamos a consultar el enlace a un video que le permitirá ampliar la información sobre el proceso de publicación de una app.
+                  p.mb-lg-0 Le invitamos a consultar el enlace a un video que le permitirá ampliar la información sobre el proceso de publicación de una #[em app].
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://www.youtube.com/watch?v=vBHmJHp8Ldo')" target="_blank")
                     span Enlace web

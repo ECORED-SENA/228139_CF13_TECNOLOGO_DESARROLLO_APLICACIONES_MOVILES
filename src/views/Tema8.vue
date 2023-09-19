@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 8
-      h1 Lenguaje Swift 
+      h1 Lenguaje Swift
 
     .row.justify-content-center
       .col-lg-10    
@@ -166,7 +166,7 @@
       .py-3.py-md-4(titulo="Función print")
         .row.mb-5
           .col-md-6.mb-4.mb-md-0.p-4
-            h4 Función print
+            h4 Función #[em print]
             p.mb-3 Es una función global que permite imprimir uno o varios valores que contienen las constantes o las variables.
           .col-md-5
             .titulo-sexto.color-acento-contenido
@@ -289,8 +289,8 @@
          figure
           img(src='@/assets/curso/temas/t8/t1-ic11.svg', alt='')
       .col-lg-10(data-aos="fade-left") 
-        p.mb-3  #[b Swift] proporciona dos formas determinadas para trabajar con condicionales en su código, la declaración #[b #[em  if]] y la declaración #[b switch].
-        p.mb-3  La declaración #[b #[em if]] usualmente se trabaja cuando se necesita evaluar condiciones simples, mientras que #[b switch]  se adapta mejor a condiciones con múltiples respuestas.
+        p.mb-3  #[b Swift] proporciona dos formas determinadas para trabajar con condicionales en su código, la declaración #[b #[em  if]] y la declaración #[b #[em switch]].
+        p.mb-3  La declaración #[b #[em if]] usualmente se trabaja cuando se necesita evaluar condiciones simples, mientras que #[b #[em switch]]  se adapta mejor a condiciones con múltiples respuestas.
     
     h3.titulo-tercero(data-aos="fade") Estructura condicional #[em if] simple
 
@@ -311,10 +311,10 @@
         .cajon.color-acento-contenido.p-4.mb-5
           p.mb-0 El ejemplo anterior verifica si la edad es mayor o igual a 18, si se cumple imprime un mensaje informando que es mayor de edad, en caso contrario no se imprime ningún mensaje.
 
-    p.mb-4(data-aos="fade") El condicional #[b #[em if]] contiene declaraciones alternativas como la cláusula else que se utiliza cuando la condición es falsa, para el ejemplo anterior no se ejecutaba ninguna acción si la condición era falsa, con la cláusula else se puede realizar esta verificación así:
+    p.mb-4(data-aos="fade") El condicional #[b #[em if]] contiene declaraciones alternativas como la cláusula #[em else] que se utiliza cuando la condición es falsa, para el ejemplo anterior no se ejecutaba ninguna acción si la condición era falsa, con la cláusula #[em else] se puede realizar esta verificación así:
     
     .titulo-sexto.color-acento-contenido(data-aos="fade") 
-      p.mb-0 #[b Ejemplo.] cláusula else
+      p.mb-0 #[b Ejemplo.] cláusula #[em else]
     .row.mb-5.justify-content-center(data-aos="fade-down")
       .col-lg-8
         .tarjeta.tarjeta--gris.p-4
@@ -378,7 +378,7 @@
             img.w-auto(src='@/assets/curso/temas/t8/p7.png', alt='Ejemplo de codigo')
 
         .cajon.color-acento-botones.p-4.mb-4(data-aos="fade-down") 
-          p.mb-0 El ejemplo muestra una iteración de los números del 0 al 5, imprimiendo cada valor, a diferencia de otros lenguajes y, cómo la condicional if en Swift no requiere de paréntesis. 
+          p.mb-0 El ejemplo muestra una iteración de los números del 0 al 5, imprimiendo cada valor, a diferencia de otros lenguajes y, cómo la condicional #[em if] en Swift no requiere de paréntesis. 
         
         .row.justify-content-center.mb-5(data-aos="fade-down") 
           .col-lg-8

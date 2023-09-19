@@ -7,7 +7,7 @@
         span 2
       h1 Interfaz de usuario en Android
 
-    p(data-aos="fade") La interfaz de usuario se define a través de la estructura de un diseño para la aplicación, en el caso de Android por ejemplo, en una actividad.
+    p(data-aos="fade") La interfaz de usuario se define a través de la estructura de un diseño para la aplicación, en el caso de Android, por ejemplo, en una actividad.
 
     .bloque-texto-a.color-primario.p-4.mb-5(data-aos="fade-down")
       .row.align-items-center.justify-content-around
@@ -50,9 +50,9 @@
       div(v-if="caja2")
         .row
           .col-md-7.mb-4
-            h1(style="color:#FFCA28;text-align:left;text-shadow: 0px 0px 3px #424242;") Layouts
+            h1(style="color:#FFCA28;text-align:left;text-shadow: 0px 0px 3px #424242;") #[em Layouts]
             .p-5.bg-white.caja_flotante(style="border-radius:10px;text-align:left;")
-              p En Android Studio los componentes visuales (Button, Editext, Textview, etc.) se organizan mediante contenedores llamados Layout.
+              p En Android Studio los componentes visuales (Button, Editext, Textview, etc.) se organizan mediante contenedores llamados #[em Layout].
               p Los #[em layouts] son elementos no visuales que permiten controlar la organización, posición y dimensiones de los #[em view] que se crean dentro de él, como muchos otros componentes contenedores, son capaces de contener a otros controles, es decir, que se puede tener un contenedor dentro de otro contenedor.
               p Existen diferentes tipos de #[em layouts] entre los más comunes están: el LinearLayout, TableLayout, ConstraintLayout.
           .col-md-5.text-center.mb-4
@@ -196,7 +196,7 @@
       .col-lg-4.col-md-6.mb-3
         .p-4.p-lg-5.bg-5.h-100
           h4 Android: #[em id]
-          p.mb-0 Define el identificador asociado a la vista para ser referenciado por código Java. la forma de crear un identificador es la siguiente:
+          p.mb-0 Define el identificador asociado a la vista para ser referenciado por código Java. La forma de crear un identificador es la siguiente:
           p #[strong Android:id=“@+id/myText”] El símbolo @+id/ quiere decir que se está generando un nuevo identificador, esto provocará que la clase R del paquete gen del proyecto cree una referencia de este objeto para que luego pueda ser manipulado por código.
 
     h5(data-aos="fade") Los valores que pueden tomar las propiedades de Android: #[em layout_width], y Android: #[em layout_height] los cuales aplican para todos los controles son:
@@ -220,7 +220,7 @@
       img(src="@/assets/curso/temas/t2/18.svg" )
 
     h3(data-aos="fade") Botones
-    p.mb-4(data-aos="fade") Un botón (#[em Button]) es un elemento de la interfaz en el que el usuario puede tocar o hacer clic para realizar una acción. En la tabla 1, puede observarse un ejemplo de un Button, con sus propiedades básicas:
+    p.mb-4(data-aos="fade") Un botón (#[em Button]) es un elemento de la interfaz en el que el usuario puede tocar o hacer clic para realizar una acción. En la tabla 1, puede observarse un ejemplo de un #[em Button], con sus propiedades básicas:
     
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade") 
       p.mb-0 #[strong Tabla 1.] Propiedades básicas #[em Button]
@@ -444,7 +444,7 @@
               h5.mb-0 android:#[em id]
             td(style="width:70%;") Al igual que en los otros controles define el identificador único asociado a la vista para ser referenciado por código java.
 
-    p.mb-4(data-aos="fade") Para definir un control de este tipo se utiliza el código siguiente, que define dos Checkbox con los textos español e inglés.
+    p.mb-4(data-aos="fade") Para definir un control de este tipo se utiliza el código siguiente, que define dos #[em Checkbox] con los textos español e inglés.
 
     .row
       .col-md-6.mb-3(data-aos="fade-right")
@@ -457,7 +457,7 @@
 
 
     .p-4.p-lg-5.bg-8.mb-5(data-aos="fade")
-      p.mb-0 #[strong #[em RadioButton]:] a diferencia del #[em #[b CheckBox]] el control #[em #[b RadioButton]] permite realizar una selección única entre una lista de opciones. En Android, un grupo de botones radio button se define mediante un elemento RadioGroup, el cual contiene todos los elementos #[em #[b RadioButton]] necesarios. 
+      p.mb-0 #[strong #[em RadioButton]:] a diferencia del #[em #[b CheckBox]] el control #[em #[b RadioButton]] permite realizar una selección única entre una lista de opciones. En Android, un grupo de botones radio #[em button] se define mediante un elemento #[em RadioGroup], el cual contiene todos los elementos #[em #[b RadioButton]] necesarios. 
 
     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade") 
       p.mb-0 #[strong Tabla 6.] Propiedades básicas #[em #[b RadioButton]]
@@ -483,16 +483,16 @@
               h5.mb-0 android:#[em id]
             td(style="width:70%;") Al igual que en los otros controles define el identificador único asociado a la vista para ser referenciado por código java.
 
-    p(data-aos="fade") Para definir un control de este tipo se utiliza como componente Padre un RadioGroup (Padre) y como hijos dos RadioButton (Hijo), el RadioGroup es el que permite que solo sea seleccionable una sola opción en caso de crear los RadioButton, sin un RadioGroup dejará seleccionar todas las opciones, lo que no es el fin del componente.
-    p(data-aos="fade") En las propiedades del RadioGroup se puede definir la orientación de los #[strong RadioButton:] la orientación puede ser Vertical -Horizontal.
-    p.mb-4(data-aos="fade") El siguiente código muestra la creación de dos RaddioButton con los textos de femenino y masculino los cuales están dentro de un RadioGroup con la propiedad de orientación vertical.
+    p(data-aos="fade") Para definir un control de este tipo se utiliza como componente Padre un #[em RadioGroup] (Padre) y como hijos dos #[em RadioButton] (Hijo), el #[em RadioGroup] es el que permite que solo sea seleccionable una sola opción en caso de crear los #[em RadioButton], sin un #[em RadioGroup] dejará seleccionar todas las opciones, lo que no es el fin del componente.
+    p(data-aos="fade") En las propiedades del #[em RadioGroup] se puede definir la orientación de los #[strong #[em RadioButton:]] la orientación puede ser Vertical -Horizontal.
+    p.mb-4(data-aos="fade") El siguiente código muestra la creación de dos #[em RadioButton] con los textos de femenino y masculino los cuales están dentro de un #[em RadioGroup] con la propiedad de orientación vertical.
 
     .row.mb-3
       .col-md-6.mb-3(data-aos="fade-right")
         figure
           img(src="@/assets/curso/temas/t2/31.svg" )
       .col-md-6.mb-3(data-aos="fade-left")
-        p Los RadioButton quedarían así:
+        p Los #[em RadioButton] quedarían así:
         figure.col-md-8
           img(src="@/assets/curso/temas/t2/32.svg" )
 
@@ -504,30 +504,30 @@
       p #[strong #[em Spinner]:] este permite seleccionar un valor en un conjunto, al presionar clic sobre ella muestra una especie de lista emergente al usuario con todas las opciones disponibles a seleccionar, su propiedad más importante es android: entries = “@array/lista” que permite fijar el contenido de datos que se quiere mostrar en la lista.
       p.mb-0 #[strong Para añadir una lista de este tipo se deben seguir los pasos que se nombran a continuación:]
 
-    p(data-aos="fade") 1. En los recursos /res/values/strings se debe crear el arreglo de #[em String] (string-array) con los valores que queremos mostrar en el spinner.
+    p(data-aos="fade") 1. En los recursos #[em /res/values/strings] se debe crear el arreglo de #[em String] (string-array) con los valores que queremos mostrar en el #[em spinner].
     figure.col-md-10.mb-4(data-aos="fade-down")
       img(src="@/assets/curso/temas/t2/33.svg" )
 
-    p(data-aos="fade") 2. Ahora en el /res/layout se crea el siguiente código para crear el Spinner y enlazar el string-array a través de la propiedad entries como se muestra a continuación.
+    p(data-aos="fade") 2. Ahora en el #[em /res/layout] se crea el siguiente código para crear el #[em Spinner] y enlazar el string-array a través de la propiedad entries como se muestra a continuación.
     figure.col-md-7.mb-4(data-aos="fade-down")
       img(src="@/assets/curso/temas/t2/34.svg" )
 
-    p(data-aos="fade") Se muestra la creación de un Spinner con sus propiedades básicas #[em heigth], #[em width] y el id, y la propiedad entries donde relaciona el array ciudades creado en los recursos. 
-    p(data-aos="fade") El Spinner quedaría así:
+    p(data-aos="fade") Se muestra la creación de un #[em Spinner] con sus propiedades básicas #[em heigth], #[em width] y el id, y la propiedad entries donde relaciona el #[em array] ciudades creado en los recursos. 
+    p(data-aos="fade") El #[em Spinner] quedaría así:
     figure.col-md-5.mb-4(data-aos="fade-down")
       img(src="@/assets/curso/temas/t2/35.svg" )
 
     .p-4.p-lg-5.bg-8.mb-5(data-aos="fade")
-      p #[strong #[em ListView]:] permite mostrar al usuario una lista de opciones seleccionables directamente sobre el propio control, sin listas emergentes como en el caso del control #[em #[b Spinner]]. En caso de existir más opciones de las que se pueden mostrar sobre el control se podrá hacer scroll sobre la lista para acceder al resto de elementos.
+      p #[strong #[em ListView]:] permite mostrar al usuario una lista de opciones seleccionables directamente sobre el propio control, sin listas emergentes como en el caso del control #[em #[b Spinner]]. En caso de existir más opciones de las que se pueden mostrar sobre el control se podrá hacer #[em scroll] sobre la lista para acceder al resto de elementos.
       p Para crear el #[em #[b ListView]], así como en el #[em #[b Spinner]] también se debe crear el arreglo de elementos que se quiere mostrar en la lista, para este ejemplo se utilizará el mismo arreglo de ciudades que se utilizó para el #[em #[b Spinner]].
       p.mb-0 Cuando los elementos que se quieren mostrar en la lista o en el #[em #[b Spinner]] no son estáticos se crea el arreglo desde el código Java.
 
-    p Ejemplo de creación de un ListView:(data-aos="fade")
+    p Ejemplo de creación de un #[em ListView]:(data-aos="fade")
     figure.col-md-7.mb-4(data-aos="fade-down")
       img(src="@/assets/curso/temas/t2/36.svg" )
 
-    p(data-aos="fade") La imagen muestra la creación de un ListView, utiliza las mismas propiedades del Spinner, y la propiedad entries donde relaciona el array ciudades creado en los recursos.
-    h5.mb-4(data-aos="fade") El ListView quedaría como se ve a continuación.
+    p(data-aos="fade") La imagen muestra la creación de un #[em ListView], utiliza las mismas propiedades del #[em Spinner], y la propiedad entries donde relaciona el #[em array] ciudades creado en los recursos.
+    h5.mb-4(data-aos="fade") El #[em ListView] quedaría como se ve a continuación.
 
     figure.col-md-4(data-aos="fade-down")
       img(src="@/assets/curso/temas/t2/37.svg" )

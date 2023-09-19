@@ -13,12 +13,12 @@
     figure.m-auto.col-lg-6.col-md-8.mb-5(data-aos="fade-down")
       img(src="@/assets/curso/temas/t1/1.svg" )
 
-    p.mb-4(data-aos="fade") Ahora bien, las vistas de proyectos de Android, o la visualización de la estructura completa de archivos del proyecto, se hace por la opción Project del menú desplegable en la parte superior de la ventana.
+    p.mb-4(data-aos="fade") Ahora bien, las vistas de proyectos de Android, o la visualización de la estructura completa de archivos del proyecto, se hace por la opción #[em Project] del menú desplegable en la parte superior de la ventana.
 
-    figure.m-auto.col-lg-6.col-md-8.mb-5(data-aos="fade-down")
+    figure.m-auto.col-lg-5.col-md-8.mb-5(data-aos="fade-down")
       img(src="@/assets/curso/temas/t1/11.svg" )
 
-    p.mb-4(data-aos="fade") En el siguiente video se eplican los componentes principales de los proyectos de Android Studio.
+    p.mb-4(data-aos="fade") En el siguiente video se explican los componentes principales de los proyectos de Android Studio.
 
     figure(data-aos="fade-down")
       .video
@@ -60,7 +60,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3 Amplíe sus conocimientos 
-              p.mb-0 Para ampliar la información, lo invitamos a visitar la página "Aspectos fundamentales de la apliación".
+              p.mb-0 Para ampliar la información, lo invitamos a visitar la página "Aspectos fundamentales de la aplicación".
             .col-sm-auto
               a.boton.boton--b.color-acento-contenido(href="https://developer.android.com/guide/components/fundamentals?hl=es-419#Components" target="_blank")
                 span Ir al sitio web
@@ -72,7 +72,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2#t_1_2 1.2 Java
 
-    p.mb-4(data-aos="fade") La carpeta java contiene todo el código fuente de la aplicación separados por paquetes, clases interfaces, pojos, etc. Inicialmente, Android Studio crea el código básico de la pantalla (actividad o activity) principal de la aplicación, que por defecto se llamará MainActivity, y siempre bajo la estructura del paquete java definido durante la creación del proyecto.
+    p.mb-4(data-aos="fade") La carpeta java contiene todo el código fuente de la aplicación separados por paquetes, clases, interfaces, pojos, etc. Inicialmente, Android Studio crea el código básico de la pantalla (actividad o #[em activity]) principal de la aplicación, que por defecto se llamará #[em MainActivity], y siempre bajo la estructura del paquete java definido durante la creación del proyecto.
 
     figure.col-md-11.m-auto(data-aos="fade-down")
       img(src="@/assets/curso/temas/t1/4.svg" )
@@ -154,7 +154,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3 Cómo ejecutar tu app
-              p.mb-0 Para conocer más a cerca de la configuración del celular para emulación, lo invitamos a ver la página "Cómo ejecutar tu app".
+              p.mb-0 Para conocer más acerca de la configuración del celular para emulación, lo invitamos a ver la página "Cómo ejecutar tu app".
             .col-sm-auto
               a.boton.boton--b.color-acento-contenido(href="https://developer.android.com/training/basics/firstapp/running-app?hl=es-419" target="_blank")
                 span Ir al sitio web

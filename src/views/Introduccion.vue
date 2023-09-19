@@ -9,11 +9,11 @@
           i.fas.fa-info
       h1 Introducción
     
-    p(data-aos="fade") Actualmente los sistemas operativos para dispositivos móviles brindan la posibilidad de construir aplicaciones para estos sistemas, proporcionando para esto un <em>software</em> llamado SDK; tanto Android como iOS, ofrecen sus respectivas herramientas para crear sus aplicaciones nativas. Las características que brindan los dispositivos móviles como GPS, cámara, navegación a internet, se aprovechan en el desarrollo de las aplicaciones, posibilitando interesantes ideas para utilidades de los usuarios.
+    p(data-aos="fade") Actualmente, los sistemas operativos para dispositivos móviles brindan la posibilidad de construir aplicaciones para estos sistemas, proporcionando para esto un <em>software</em> llamado SDK; tanto Android como iOS, ofrecen sus respectivas herramientas para crear sus aplicaciones nativas. Las características que brindan los dispositivos móviles, como GPS, cámara, navegación a internet, se aprovechan en el desarrollo de las aplicaciones, posibilitando interesantes ideas para utilidades de los usuarios.
 
     p(data-aos="fade") El sistema operativo Android tiene compatibilidad con la mayoría de los dispositivos y es hoy en día uno de los más utilizados en teléfonos móviles. El mercado de aplicaciones de Android está en constante incremento y la aparición de las empresas y de sus aplicaciones en esta plataforma es básicamente un requisito indispensable. Así que el desarrollo de aplicaciones para este sistema puede convertirse en un excelente desempeño laboral para muchos ingenieros.
 
-    p.mb-4(data-aos="fade") También estudiaremos la construción de un aplicativo según las características de la arquitectura iOS, y para ello lo invitamos a ver el siguiente video:
+    p.mb-4(data-aos="fade") También estudiaremos la construcción de un aplicativo según las características de la arquitectura iOS, y para ello lo invitamos a ver el siguiente video:
 
     figure.mb-4(data-aos="fade-down")
       .video
