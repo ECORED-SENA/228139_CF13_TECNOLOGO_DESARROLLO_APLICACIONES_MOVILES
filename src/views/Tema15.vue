@@ -23,7 +23,6 @@
         .row
           .col-lg-5.mb-4.mb-lg-0
             h4 A continuación encontrará una guía relacionada con la publicación en Play Store de tu APK firmada.
-            p Una vez se genere el APK firmada ya se puede subir a la Play Store con el fin de lanzarla.
             p Para esto debe seguir estos pasos.
           .col-lg-7
             figure

@@ -102,15 +102,15 @@
             h3 Diseño utilizando LinearLayout
             figure.col-md-10.m-auto.mb-3
               img(src="@/assets/curso/temas/t2/39.png")
-            p La figura muestra el código XML para la creación de un #[strong #[em layout]] de tipo #[strong LinearLayout] con la orientación vertical el cual contiene dos #[strong #[em views]] de tipo #[strong Button].
+            p La figura muestra el código XML para la creación de un #[strong #[em layout]] de tipo #[strong LinearLayout] con la orientación vertical el cual contiene dos #[strong #[em views]] de tipo #[strong #[em Button]].
             p.mb-0 #[strong &lt;LinearLayout:] tipo de contenedor lineal 
             p.mb-0 #[strong orientation=vertical:] propiedad que define la ubicación de los #[em views] de forma vertical. 
             p.mb-0 #[strong layout_width:] propiedad que define el ancho del contenedor. 
             p #[strong layout_height:] propiedad que define el alto del contenedor #[Strong &gt;]
-            p.mb-0 #[strong &lt;Button:] etiqueta para crear un #[em view] de tipo Button (Botón). 
+            p.mb-0 #[strong &lt;#[em Button]:] etiqueta para crear un #[em view] de tipo #[em Button] (Botón). 
             p.mb-0 #[strong layout_width:] propiedad que define el ancho del #[em view]. 
             p.mb-0 #[strong layout_height:] propiedad que define el alto del #[em view].
-            p #[strong text:] propiedad que define el título del button #[Strong /&gt;]
+            p #[strong text:] propiedad que define el título del #[em button] #[Strong /&gt;]
             p El código anterior mostraría el #[strong LinearLayout] de la siguiente forma:
             p(style="padding-left:13px;border-left:4px #4DD0E1 solid;") Vista de Diseño LinearLayout
             figure.col-md-4.m-auto

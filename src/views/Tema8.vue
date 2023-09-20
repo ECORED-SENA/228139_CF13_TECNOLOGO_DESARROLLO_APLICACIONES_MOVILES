@@ -163,7 +163,7 @@
             .tarjeta.tarjeta--gris.p-4
               figure
                 img(src='@/assets/curso/temas/t8/t1-c3.svg', alt='Ejmplo de codigo')
-      .py-3.py-md-4(titulo="Función print")
+      .py-3.py-md-4(titulo="Función <em>print</em>")
         .row.mb-5
           .col-md-6.mb-4.mb-md-0.p-4
             h4 Función #[em print]

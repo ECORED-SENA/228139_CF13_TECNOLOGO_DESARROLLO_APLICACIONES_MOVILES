@@ -24,7 +24,7 @@
     h5.mb-4(data-aos="fade") Para realizar el ejemplo del evento #[em listener] de un #[em Button], se deben seguir algunos pasos que se presentan a continuación.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-4" data-aos="fade-down")
-      .row.justify-content-center(titulo="1. Crear el Button en el <em>Layout</em> con su propiedad ID ya que es la que nos va a permitir referenciarlos desde el código Java.")
+      .row.justify-content-center(titulo="1. Crear el <em>Button</em> en el <em>Layout</em> con su propiedad ID ya que es la que nos va a permitir referenciarlos desde el código Java.")
         .col-lg-10.mb-3  
           figure
             img(src="@/assets/curso/temas/t3/5.png")

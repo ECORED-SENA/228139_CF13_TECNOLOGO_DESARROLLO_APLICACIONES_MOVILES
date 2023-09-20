@@ -153,8 +153,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3 Cómo ejecutar tu app
-              p.mb-0 Para conocer más acerca de la configuración del celular para emulación, lo invitamos a ver la página "Cómo ejecutar tu app".
+              h3 Cómo ejecutar tu #[em app]
+              p.mb-0 Para conocer más acerca de la configuración del celular para emulación, lo invitamos a ver la página "Cómo ejecutar tu #[em app]".
             .col-sm-auto
               a.boton.boton--b.color-acento-contenido(href="https://developer.android.com/training/basics/firstapp/running-app?hl=es-419" target="_blank")
                 span Ir al sitio web

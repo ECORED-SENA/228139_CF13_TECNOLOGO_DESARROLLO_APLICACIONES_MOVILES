@@ -51,9 +51,9 @@
       p.mb-0  #[b #[em userDefaults.setBool(true, forKey: "Key1")]] está configurando una entrada de valor de tipo #[b booleano] y el nombre de la llave será key1.
     
     .row.mb-5.justify-content-center
-      .col-lg-5(data-aos="fade-right")
-        p.mb-4(data-aos="fade") El archivo #[b XML] queda almacenado en el disco en la ruta que se muestra.
-      .col-lg-7(data-aos="fade-left")
+      .col-lg-12(data-aos="fade-right")
+        p(data-aos="fade") El archivo #[b XML] queda almacenado en el disco en la ruta #[em Library] – #[em Preferences].
+      //.col-lg-7(data-aos="fade-left")
         figure.mb-2
           img(src='@/assets/curso/temas/t10/t3-i4.png', alt='') 
         figcaption Nota. <a href='https://bit.ly/3swEV30' target='_blank'>https://bit.ly/3swEV30</a>
@@ -125,7 +125,7 @@
         figure.mb-5
           img(src='@/assets/curso/temas/t10/t3-i6.svg', alt='') 
     
-    .row.mb-5.justify-content-center(data-aos="fade-down")
+    //.row.mb-5.justify-content-center(data-aos="fade-down")
       .col-lg-7
         figure.mb-2
           img(src='@/assets/curso/temas/t10/t3-i7.png', alt='') 
